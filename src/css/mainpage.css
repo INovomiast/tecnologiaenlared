@@ -18,5 +18,10 @@ body{
 }
 
 .nav_menu{
-    
+    color: black;
+}
+
+.nav_menu a{
+    text-align: center;
+    padding: 10px 15px;
 }
