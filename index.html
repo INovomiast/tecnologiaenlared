@@ -7,14 +7,54 @@
     <title>Tecnologia en la red</title>
     <link rel="stylesheet" href="./src/css/mainpage.css">
 </head>
-<body>
-    <center>
-        <div class="nav_menu">
-            <a href="">Inicio</a>
-            <a href="">Que es TecnologiaEnLaRed</a>
-            <a href="">Trabajos</a>
-            <a href="">Creditos</a>
-        </div>
-    </center>
+<body onload="load()">
+
+    <div class="loading_screen" id="loading_screen">
+        <center>
+            <div class="loader"></div>
+            <center>
+                <br>
+                <h2 class="help_text_display" id="h_t_disp">Consejos</h2>
+            </center>
+        </center>
+    </div>
+
+    <div class="content" id="content">
+        <hr class="top_separator">
+        <center>
+            <div class="nav_menu">
+                <a href="./index.html">Inicio</a>
+                <a href="./p/sobre-nosotros/">Sobre Nosotros</a>
+                <a href="./p/trabajos/">Trabajos</a>
+                <a href="./p/creditos/">Creditos</a>
+            </div>
+        </center>
+        <hr class="bottom_separator">
+        <br>
+        <br>
+        <center>
+            <div style="font-size: 40px; background-color: white; border-radius: 12px; width: 80%; text-align: center; border-bottom: 2px black solid;border-top: 2px black solid; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;">
+                <center>
+                    <h2>Bienvenido a</h2>
+                    <h1>TECNOLOGIA EN LA RED</h1>
+                </center>
+            </div>
+            <br>
+            <br>
+            <p style="font-size: 30px; margin-top: 30px;">
+                Tecno.Web se Renueva por Completo con Tecnologia en la red!, este sitio desarrollado por el <br>
+                alumno Iván Dimitri, el cual a querido remodelar y dar una vuelta de rosca a la forma de entregar <br>
+                trabajos, asi ya podiendo añadir a su colección de páginas web creadas para trabajos del colegio <br>
+                asi formando la lista por 5 webs, con variados trabajos. <br>
+                <br>
+                <br>
+                <button style="width: 40%; height: 100px; border: black 2px solid; border-radius: 12px;" class="see_more" onclick="works_redir()">
+                    Ver los Trabajos...!
+                </button>
+            </p>
+        </center>
+    </div>
+    <script src="./src/js/mainpage.js"></script>
+    <script src="./src/js/loader.js"></script>
 </body>
 </html>
