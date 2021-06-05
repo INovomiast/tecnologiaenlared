@@ -26,4 +26,12 @@ body{
     padding: 14px 16px;
     color: black;
     font-size: 30px;
+    text-decoration: none;
+    transition: text-decoration 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.nav_menu:hover{
+    background-color: #222;
+    color: white;
+    text-decoration: underline;
 }
