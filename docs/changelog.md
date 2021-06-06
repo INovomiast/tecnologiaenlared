@@ -37,3 +37,14 @@
     - Html.
     - CSS.
     - Markdown.
+
+### DISCARTED!
+ - Se ha descartado la opcion de inplementar el DarkMode
+
+## [1.2.5] - 2021-06-06
+### Added
+ - Se ha empezado el trabajo en la zona Trabajos.
+ - Añadido selector de "Im", en la parte de trabajos.
+ - Sistema mejorado de "Calificación".
+ - Empezamos el Resumen del tema **5**.
+ 
