@@ -6,9 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redireccionando...</title>
 </head>
-<body>
+<body onload="redir()">
     <center>
         <h1>Llevandole a: <span id="link_display" style="text-decoration: underline black;"></span></h1>
     </center>
+
+    <script>
+        function redir(){
+            var link = "http://salesianos.antequera.classroom.totalh.net";
+            var link_display = document.getElementById('link_display');
+            link_display.innerText = link;
+            setTimeout(function(){
+                window.location.href = link;
+            }, 3000);
+        }
+    </script>
 </body>
 </html>
