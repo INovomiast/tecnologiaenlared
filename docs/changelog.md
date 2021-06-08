@@ -47,4 +47,9 @@
  - Añadido selector de "Im", en la parte de trabajos.
  - Sistema mejorado de "Calificación".
  - Empezamos el Resumen del tema **5**.
- 
+
+### Changed
+ - Nada
+
+### Removed
+ - Dark Mode

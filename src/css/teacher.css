@@ -45,3 +45,35 @@ body{
     margin-bottom: -5px;
     border: 2px black solid;
 }
+
+.res_selector{
+    background-color: #222;
+    color: white;
+    width: 50%;
+    height: 200px;
+    border: firebrick thick solid;
+    border-radius: 15px;
+}
+
+
+.res_sel{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.sel_res_btn{
+    width: 35%;
+    height: 40px;
+    background-color: royalblue;
+    border: black solid thin;
+    border-radius: 15px;
+    transition: all 0.4s;
+    color: white;
+    font-size: 25px;
+}
+
+.sel_res_btn:hover{
+    background-color: salmon;
+}
