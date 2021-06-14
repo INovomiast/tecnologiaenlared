@@ -40,12 +40,18 @@
                     <option value="" disabled>Tema 4(Perdido)</option>
                     <option value="" disabled>Tema 5(Perdido)</option>
                     <option value="" disabled>Tema 6 Pt.1(Inexistente)</option>
-                    <option value="">Tema 6 Pt.2</option>
+                    <option value="" onclick="change_link_6()">Tema 6 Pt.2</option>
                 </select><br>
                 <br>
-                <a href="#Resumen"><button class="sel_res_btn">Entrar al Resumen</button></a>
+                <a href="#Resumen" id="link"><button class="sel_res_btn">Entrar al Resumen</button></a>
             </center>
         </div>
     </center>
+
+    <script>
+        function change_link_6(){
+            document.getElementById('link').href = "../../works/resumen-tema-6";
+        }
+    </script>
 </body>
 </html>
