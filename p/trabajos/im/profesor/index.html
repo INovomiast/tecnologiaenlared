@@ -33,7 +33,7 @@
                 </h3>
                 <br>
                 <select name="" id="" class="res_sel" required>
-                    <option value="" selected>Ningun Resumen</option>
+                    <option value="" selected onclick="def()">Ningun Resumen</option>
                     <option value="" disabled>Tema 1(Perdido)</option>
                     <option value="" disabled>Tema 2(Perdido)</option>
                     <option value="" disabled>Tema 3(Perdido)</option>
@@ -49,8 +49,11 @@
     </center>
 
     <script>
+        function def(){
+            document.getElementById('link').href = "#Resumen";
+        }
         function change_link_6(){
-            document.getElementById('link').href = "../../works/resumen-tema-6";
+            document.getElementById('link').href = "../../works/resumen-tema-6/index.html";
         }
     </script>
 </body>
