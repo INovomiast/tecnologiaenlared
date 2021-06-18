@@ -9,11 +9,14 @@
     <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/142890/isolated/lists/4ea2d7c4bf3cad23a4f18ee58752deb8-logotipo-de-anillos-de-alta-tecnologia.png" type="image/x-icon">
 </head>
 <body>
+    <br>
     <hr style="border: black 1px solid;">
+    <br>
         <center>
             <div class="rate_form">
                 <form>
-                    <h2>Selecciona el Trabajo a Calificar</h2>
+                    <h2>Selecciona el Trabajo a Calificar:</h2>
+                    <br>
                     <select name="" id="wrk_selector">
                         <option value="">Seleccione un trabajo a Calificar</option>
                         <optgroup label="Trabajos">
@@ -23,9 +26,19 @@
                             <option value="team6pt2" onclick="tema6_2()">Resumen Tema 6 Pt2</option>
                         </optgroup>
                     </select>
+                    <br>
+                    <br>
+                    <h2>Ponga una nota (Del 1 al 10):</h2>
+                    <br>
+                    <input type="number" name="" id="input_rate" class="rate" max="10" min="0" value="0">
+                    <br>
+                    <br>
+                    <h2>Observaciones:</h2>
+                    <textarea name="" id="observation_field" cols="30" rows="10" onclick="clear()">Inserte su observación aqui...</textarea>
                 </form>
             </div>
         </center>
+    <br>
     <hr style="border: black 1px solid;">
 </body>
 </html>

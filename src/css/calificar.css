@@ -1,3 +1,8 @@
+@import "./animations.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+
 *{
     padding: 0;
     margin: 0;
@@ -6,4 +11,33 @@
 body{
     background-color: teal;
     color: white;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+
+#wrk_selector{
+    width: 50%;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#input_rate{
+    width: 30%;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#observation_field{
+    width: 500px;
+    height: 150px;
+    resize: none;
+    outline: none;
+    text-align: left;
 }

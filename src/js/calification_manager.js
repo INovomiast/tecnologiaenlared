@@ -15,7 +15,17 @@
 
 
 //We call all html RateSystem elements.
-const work = document.getElementById('');
-const rate = document.getElementById('');
-const observations = document.getElementById('');
-const ctrepo = document.getElementById('');
+var work = document.getElementById('');
+var rate = document.getElementById('');
+var observations = document.getElementById('');
+var ctrepo = document.getElementById('');
+
+//We create different Function, everyone of that functions for managing a different Work
+
+function tema4(){
+
+}
+
+function clear(){
+    
+}
